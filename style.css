@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "PPMori";
+  src: url("ppmori.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "PPMori";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  background-color: #0f0d0d;
+}
+
+.page1 {
+  height: 100vh;
+  width: 100%;
+}
+
+#nav {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+#nav img {
+  height: 26px;
+}
+
+#nav-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+#nav #circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+#nav h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
